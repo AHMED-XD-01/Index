@@ -1,0 +1,38 @@
+body {
+    background-color: #000000; /* Black background */
+}
+
+p {
+    color: #FFFFFF; /* White text */
+    background-color: #ff5733; /* Background color for the paragraph */
+}
+}
+
+h1 {
+    color: #ff5733; /* Orange color for headings */
+}
+
+h3 {
+	color: #e74c3c;
+}
+
+
+a {
+    color: #e74c3c; /* Red color for links */
+}
+
+button {
+    background-color: #2ecc71; /* Green button background */
+    color: white; /* White text on the button */
+    border: none;
+    cursor: pointer;
+    padding: 15px 40px; /* Adjust padding for a nice, large button */
+    border-radius: 50px; /* Creates the pill shape */
+    font-size: 18px; /* Adjust text size */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
