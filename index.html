@@ -3,34 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Colored HTML</title>
-    <!-- Link to the external CSS file -->
+    <title>Mobile Shop</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .search-container input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            border: 2px solid #333;
+            border-radius: 25px 0 0 25px;
+            outline: none;
+            font-size: 16px;
+        }
+        
+        .search-container button {
+            padding: 10px 20px;
+            background-color: #333;
+            border: 2px solid #333;
+            border-radius: 0 25px 25px 0;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .search-container button:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
-<h1>Mobile shop</h1>
-<h3> Latest price in Pakistan</h3>
-</body>
-</html>
-<body>
-	<html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display Image</title>
-</head>
-<body>
-    <h1>oppo f9</h1>
+    <h1>Mobile Shop</h1>
+    <h3>Latest price in Pakistan</h3>
+    
+    <div class="search-container">
+        <input type="text" placeholder="Search Mobile Models..." name="search">
+        <button type="submit">🔍 Search</button>
+    </div>
+    
+    <h1>OPPO F9</h1>
     <img src="https://raw.githubusercontent.com/Tvveero0/PNG/main/oppo.png" width="200" height="200" alt="OPPO F9">
-<br><br>
-<a href="https://www.facebook.com/profile.php?id=100091897863745" target="_blank">
-    <button>OWNER FACEBOOK ID</button>
-</a>
-<h1><strong>Price</strong></h1>
-Price in Rs.: 40,999<br>
-Price in USD: 147.23 $</p>
+    <br><br>
+    <a href="https://www.facebook.com/profile.php?id=100091897863745" target="_blank">
+        <button>OWNER FACEBOOK ID</button>
+    </a>
+    
+    <h1><strong>Price</strong></h1>
+    <p>Price in Rs.: 40,999<br>Price in USD: 147.23 $</p>
+
 <p><strong>Processor</strong><br>
 CPU: Octa-core (4 x 2.0 GHz Cortex-A73 + 4 x 2.0 GHz Cortex-A53)<br>
 Chipset: Mediatek MT6771 Helio P60<br>
@@ -75,6 +100,9 @@ Fast battery charging: VOOC Flash Charge 5V/4A 20W<br><br>
 <strong>Price</strong><br>
 Price in Rs.: 40,999<br>
 Price in USD: 147.23 $</p>
-<a href="https://wa.me/923088588638?text=Hello,%20I%20am%20interested%20in%20buying%20an%20OPPO%20F9!" target="_blank">
-    <button>BUY NOW</button>
-</a>
+    
+    <a href="https://wa.me/923088588638?text=Hello,%20I%20am%20interested%20in%20buying%20an%20OPPO%20F9!" target="_blank">
+        <button>BUY NOW</button>
+    </a>
+</body>
+</html>
